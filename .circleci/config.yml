@@ -25,6 +25,8 @@ jobs:
   build-with-clang:
     docker:
       - image: ubuntu:latest
+    environment:
+      DEBIAN_FRONTEND: noninteractive
     steps:
       - checkout
 
