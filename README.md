@@ -1,1 +1,1 @@
-# ospsd
+# OSPSD C++ Template Repository
